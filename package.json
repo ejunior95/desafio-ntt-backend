@@ -1,0 +1,18 @@
+{
+  "name": "desafio-ntt-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ejunior95 <e.junior95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --ignore-watch node_modules --no-notify src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
